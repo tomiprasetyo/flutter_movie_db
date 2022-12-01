@@ -28,7 +28,7 @@ class ImageNetworkWidget extends StatelessWidget {
           return SizedBox(
             height: height,
             width: width,
-            child: const Icon(Icons.branding_watermark_rounded),
+            child: const Icon(Icons.broken_image_rounded),
           );
         },
       ),
