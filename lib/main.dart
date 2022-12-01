@@ -34,18 +34,18 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => MovieGetDiscoverProvider(movieRepository),
+        ChangeNotifierProvider(
+          create: (_) => MovieGetDiscoverProvider(movieRepository),
         )
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Movie DB',
         theme: ThemeData(
-
           primarySwatch: Colors.blue,
         ),
         home: const MoviePage(),
+        debugShowCheckedModeBanner: false,
       ),
     );
   }
 }
-

@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 class MovieResponseModel {
   MovieResponseModel({
     required this.page,
